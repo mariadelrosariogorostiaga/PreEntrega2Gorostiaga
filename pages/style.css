@@ -1,0 +1,86 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+
+/*MENU*/
+
+#menu li a{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+
+}
+
+#menu form button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.carousel-inner{
+    max-height: 39rem;
+}
+
+.ubicacion{
+    background-color: blue;
+}
+
+
+@media (max-width:768px){
+    #intro, #equipo{
+        width: 90% !important;
+    }
+
+    #equipo p{
+        display: none;
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+    #bg-contacto{
+        position: relative;
+        top:-110px;
+    }
+}
+
+
+@media(max-width: 576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+#bg-contacto{
+    position: relative;
+    top: -130px;
+}
+
+#contenedor-formulario{
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+}
+
+#titulo-formulario{
+    color: black;
+}
+
+footer{
+    background-color: blue;
+    min-height: 100px;
+}
+
+footer p{
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos i{
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+
